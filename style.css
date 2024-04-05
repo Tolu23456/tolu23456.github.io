@@ -1,0 +1,38 @@
+body::before{
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+img{
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 768px) {
+  .news-input{
+    width: 50%;
+  }
+}
+
+.modal-sheet .modal-dialog {
+  width: 380px; 
+  transition: bottom .75s ease-in-out;
+}
+
+.modal-sheet .modal-footer {
+  padding-bottom: 2rem;
+} 
+
+#p{
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .form-control{
+    display: none;
+  }
+  .navbar-expand-md{
+    
+  }
+}
